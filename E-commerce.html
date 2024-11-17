@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Listing</title>
+  <link rel="stylesheet" href="E:\pavitra\styles.css">
+</head>
+<body>
+    <nav>
+        <h1>Welcome to My eCommerce Store</h1>
+        <ul>
+          <li><a href="E:\pavitra\portfolio.html">Portfolio</a></li>
+          <li><a href="E:\pavitra\todo.html">To-Do App</a></li>
+          <li><a href="#productList">Product Listing</a></li>
+        </ul>
+      </nav>
+  <header>
+    <h1>Product Listing</h1>
+    <div class="filters">
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="electronics">Electronics</option>
+        <option value="clothing">Clothing</option>
+        <option value="books">Books</option>
+      </select>
+      <select id="sortFilter">
+        <option value="none">Sort By</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="rating-desc">Rating: High to Low</option>
+      </select>
+    </div>
+  </header>
+  
+  <main>
+    <div id="productList" class="product-list">
+      <!-- Products will be dynamically inserted here -->
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 My eCommerce Store. All rights reserved.</p>
+  </footer>
+
+  <script src="E:\pavitra\script.js"></script>
+</body>
+</html>
